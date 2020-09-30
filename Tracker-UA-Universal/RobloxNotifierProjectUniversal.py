@@ -6,7 +6,9 @@
 #  Description: The objective of this project is to retrieve the price of a given
 #               roblox item and notify you by email when your price requirements are met.
 #               This works best with collectibles as other items in catalog have constant
-#               prices.
+#               prices. If you are using this for personal use, you can modify the popup
+#               to only ask for the url and price (Ex: give email, subject, and user agent
+#               a default value).
 #
 #  Notes:       This program is intended to be run from the Pycharm IDE.
 #  Date created: July 2020
@@ -93,8 +95,10 @@ while True:
 # After making the program work successfully by entering in the required components (as well as entering a fake email in the code), 
 # you can convert this into a exe file. To do so, first download pyinstaller by running 'pip install pyinstaller' in your terminal.
 # Afterwords, run this command:
-# pyinstaller --onefile --windowed RobloxNotifierProjectUniversal.py pyinstaller --onefile --windowed --icon=icon.ico RobloxNotifierProject.py
+# pyinstaller --onefile --windowed --icon=icon.ico RobloxNotifierProject.py
 # Note: Make sure you are running this in the directory containing the py script and icon.ico image
+#       Once the command is ran successfully, you can ignore _pycache_ and the build file, the
+#       exe file should be in the dist folder
 
 
 
