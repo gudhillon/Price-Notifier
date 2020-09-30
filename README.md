@@ -1,1 +1,2 @@
 # Price-Notifier
+The objective of this project is to make buying items easier on many game websites ranging from roblox to the steam market. So far, I've made a working program for Roblox. In order to run the py script, install modules PySimpleGUI, requests, and beautifulsoup4. For the user agent, look up "my user agent" in your browser, taking user agent as input will allow the program to work universally. Also, when entering the upper limit, make sure there arent any decimals or commas.
