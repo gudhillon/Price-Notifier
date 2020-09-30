@@ -66,6 +66,7 @@ def send_mail():
     server.starttls()
     server.ehlo()
     #Enter email and password here, Ex: server.login('email@gmail.com','abc123')
+    #I would suggest making a new email just for this and allow less secure apps to login
     server.login('', '')
     #subject = "Price Change"
     body = "Check link: " + page_url
