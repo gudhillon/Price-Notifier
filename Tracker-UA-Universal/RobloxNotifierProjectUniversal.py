@@ -93,12 +93,13 @@ while True:
 
 
 # After making the program work successfully by entering in the required components (as well as entering a fake email in the code), 
-# you can convert this into a exe file. To do so, first download pyinstaller by running 'pip install pyinstaller' in your terminal.
-# Afterwords, run this command:
-# pyinstaller --onefile --windowed --icon=icon.ico RobloxNotifierProject.py
-# Note: Make sure you are running this in the directory containing the py script and icon.ico image
+# you can convert this into a exe file. To do so, Open your terminal and locate the directory containing the py script and icon image. 
+# Then download pyinstaller by running 'pip install pyinstaller'. 
+# Afterwords, run this command: pyinstaller --onefile --windowed --icon=icon.ico RobloxNotifierProject.py
+#
+# Note: Make sure you are running this in the directory containing the py script and icon.ico image.
 #       Once the command is ran successfully, you can ignore _pycache_ and the build file, the
-#       exe file should be in the dist folder
+#       exe file should be in the dist folder.
 
 
 
