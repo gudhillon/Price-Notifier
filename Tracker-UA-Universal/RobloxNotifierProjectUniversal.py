@@ -74,7 +74,8 @@ def send_mail():
     body = "Check link: " + page_url
     msg = f"Subject: {subject}\n\n{body}"
     server.sendmail(
-        'gurproject@gmail.com',
+        # Enter the same email here
+        '',
         email,
         msg
     )
